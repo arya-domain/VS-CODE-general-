@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href="tic.css" />
+    <title>  Rock Paper Scissors</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Rock Paper Scissors
+      </h1>
+    </header>
+    <div class = "score-board">
+      <div id = "user-label" class = "badge">Guest</div>
+      <div id= "comp-label" class = "badge" >AI </div>
+      <span id = "user-score" class = "badge"> 0 </span> 
+      <p id="colon">:</p> 
+      <span id = "computer-score" class = "badge"> 0 </span>
+    </div>
+        
+    <div class = "result">
+      <p id= "tagline"> Stone! Paper! Scissor!</p>
+    </div>
+      
+    <div class="choices">
+      <div class="choice" id = "r"> <img src= "https://media.istockphoto.com/photos/stone-pebble-gray-picture-id1288973456?b=1&k=20&m=1288973456&s=170667a&w=0&h=GBGgp4yrZv4ooDBws8yHF24sJ3rkEpObYsBWpVNKFT8=" width="150" height="150"></div>
+      <div class="choice" id = "p"> <img src= "https://www.collinsdictionary.com/images/full/paper_111691001.jpg" width="150" height="150" ></div>
+      <div class="choice" id = "c"> <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Pair_of_scissors_with_black_handle%2C_2015-06-07.jpg/1200px-Pair_of_scissors_with_black_handle%2C_2015-06-07.jpg" width="150" height="150" ></div>
+    </div>
+
+    <p id= "action-message">Make Your Move</p>
+    <script src="tic.js" charset="utf-8"></script>
+  </body>
+</html>
